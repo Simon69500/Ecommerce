@@ -1,0 +1,960 @@
+{
+    "dup_type": "lite",
+    "created": "2024-08-16 16:27:10",
+    "version_dup": "1.5.10.2",
+    "version_wp": "6.6.1",
+    "version_db": "8.0.16",
+    "version_php": "8.1.29",
+    "version_os": "WINNT",
+    "blogname": "La vie des plantes",
+    "exportOnlyDB": 0,
+    "secure_on": 0,
+    "secure_pass": "$2a$08$cCeFLddEOBrAAUbjkTvIUuJOQS9ZXEf4cOwCRomJUR\/h.bEjSb\/xm",
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "wp_tableprefix": "wp_",
+    "mu_mode": 0,
+    "mu_generation": 0,
+    "mu_siteadmins": [
+        "admin"
+    ],
+    "subsites": [
+        {
+            "id": 1,
+            "domain": "la-vie-des-plantes.local",
+            "path": "\/",
+            "blogname": "La vie des plantes",
+            "blog_prefix": "wp_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "ID": "1",
+                    "user_login": "Simon",
+                    "id": "1"
+                }
+            ],
+            "fullHomeUrl": "http:\/\/la-vie-des-plantes.local",
+            "fullSiteUrl": "http:\/\/la-vie-des-plantes.local",
+            "uploadPath": "wp-content\/uploads",
+            "fullUploadPath": "C:\\Users\\simon\\Local Sites\\la-vie-des-plantes\\app\\public\/wp-content\/uploads",
+            "fullUploadSafePath": "C:\/Users\/simon\/Local Sites\/la-vie-des-plantes\/app\/public\/wp-content\/uploads",
+            "fullUploadUrl": "http:\/\/la-vie-des-plantes.local\/wp-content\/uploads",
+            "filteredPaths": []
+        }
+    ],
+    "main_site_id": 1,
+    "mu_is_filtered": false,
+    "license_limit": 0,
+    "license_type": 0,
+    "dbInfo": {
+        "buildMode": "PHP",
+        "charSetList": [
+            "utf8mb4",
+            "utf8"
+        ],
+        "collationList": [
+            "utf8_general_ci",
+            "utf8mb4_unicode_520_ci"
+        ],
+        "engineList": [
+            "InnoDB"
+        ],
+        "isTablesUpperCase": 0,
+        "isNameUpperCase": 0,
+        "name": "local",
+        "tablesBaseCount": 68,
+        "tablesFinalCount": 68,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 6121,
+        "tablesSizeOnDisk": 11091968,
+        "tablesList": {
+            "wp_actionscheduler_actions": {
+                "inaccurateRows": 33,
+                "insertedRows": 33,
+                "size": 131072
+            },
+            "wp_actionscheduler_claims": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_actionscheduler_groups": {
+                "inaccurateRows": 8,
+                "insertedRows": 8,
+                "size": 32768
+            },
+            "wp_actionscheduler_logs": {
+                "inaccurateRows": 81,
+                "insertedRows": 81,
+                "size": 49152
+            },
+            "wp_commentmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_comments": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 114688
+            },
+            "wp_duplicator_packages": {
+                "inaccurateRows": 0,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "wp_e_events": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 16384
+            },
+            "wp_gla_attribute_mapping_rules": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_gla_budget_recommendations": {
+                "inaccurateRows": 4230,
+                "insertedRows": 4230,
+                "size": 344064
+            },
+            "wp_gla_merchant_issues": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_gla_shipping_rates": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_gla_shipping_times": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_mailchimp_carts": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_mailchimp_jobs": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_options": {
+                "inaccurateRows": 589,
+                "insertedRows": 605,
+                "size": 5406720
+            },
+            "wp_postmeta": {
+                "inaccurateRows": 733,
+                "insertedRows": 748,
+                "size": 1540096
+            },
+            "wp_posts": {
+                "inaccurateRows": 166,
+                "insertedRows": 178,
+                "size": 589824
+            },
+            "wp_term_relationships": {
+                "inaccurateRows": 13,
+                "insertedRows": 13,
+                "size": 32768
+            },
+            "wp_term_taxonomy": {
+                "inaccurateRows": 18,
+                "insertedRows": 18,
+                "size": 49152
+            },
+            "wp_termmeta": {
+                "inaccurateRows": 4,
+                "insertedRows": 4,
+                "size": 49152
+            },
+            "wp_terms": {
+                "inaccurateRows": 17,
+                "insertedRows": 18,
+                "size": 49152
+            },
+            "wp_usermeta": {
+                "inaccurateRows": 45,
+                "insertedRows": 45,
+                "size": 49152
+            },
+            "wp_users": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 65536
+            },
+            "wp_wc_admin_note_actions": {
+                "inaccurateRows": 90,
+                "insertedRows": 90,
+                "size": 65536
+            },
+            "wp_wc_admin_notes": {
+                "inaccurateRows": 57,
+                "insertedRows": 63,
+                "size": 65536
+            },
+            "wp_wc_category_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 2,
+                "size": 16384
+            },
+            "wp_wc_customer_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wc_download_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wc_order_addresses": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wp_wc_order_coupon_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wc_order_operational_data": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wc_order_product_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wp_wc_order_stats": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "wp_wc_order_tax_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wc_orders": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 131072
+            },
+            "wp_wc_orders_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wc_product_attributes_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_wc_product_download_directories": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "wp_wc_product_meta_lookup": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 131072
+            },
+            "wp_wc_rate_limits": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_wc_reserved_stock": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_wc_tax_rate_classes": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "wp_wc_webhooks": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_woocommerce_api_keys": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_woocommerce_attribute_taxonomies": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_woocommerce_downloadable_product_permissions": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wp_woocommerce_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_woocommerce_order_itemmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_woocommerce_order_items": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_woocommerce_payment_tokenmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_woocommerce_payment_tokens": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_woocommerce_sessions": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "wp_woocommerce_shipping_zone_locations": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 49152
+            },
+            "wp_woocommerce_shipping_zone_methods": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 16384
+            },
+            "wp_woocommerce_shipping_zones": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 16384
+            },
+            "wp_woocommerce_tax_rate_locations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_woocommerce_tax_rates": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 81920
+            },
+            "wp_wpforms_logs": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_wpforms_payment_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "wp_wpforms_payments": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 163840
+            },
+            "wp_wpforms_tasks_meta": {
+                "inaccurateRows": 6,
+                "insertedRows": 5,
+                "size": 16384
+            },
+            "wp_yoast_indexable": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 114688
+            },
+            "wp_yoast_indexable_hierarchy": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "wp_yoast_migrations": {
+                "inaccurateRows": 24,
+                "insertedRows": 24,
+                "size": 32768
+            },
+            "wp_yoast_primary_term": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_yoast_seo_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            }
+        },
+        "lowerCaseTableNames": 1,
+        "dbEngine": "MySQL",
+        "version": "8.0.16",
+        "versionComment": "MySQL Community Server - GPL",
+        "viewCount": 0,
+        "procCount": 0,
+        "funcCount": 0,
+        "triggerList": []
+    },
+    "packInfo": {
+        "packageId": 2,
+        "packageName": "backup_laviedesplantes",
+        "packageHash": "fd20ad8-16162710",
+        "secondaryHash": "d9e63d2-16162710"
+    },
+    "fileInfo": {
+        "dirCount": 3113,
+        "fileCount": 19633,
+        "size": 107100583
+    },
+    "wpInfo": {
+        "version": "6.6.1",
+        "is_multisite": false,
+        "network_id": 1,
+        "targetRoot": "C:\/Users\/simon\/Local Sites\/la-vie-des-plantes\/app\/public",
+        "targetPaths": [
+            "C:\/Users\/simon\/Local Sites\/la-vie-des-plantes\/app\/public"
+        ],
+        "adminUsers": [
+            {
+                "ID": "1",
+                "user_login": "Simon",
+                "id": "1"
+            }
+        ],
+        "configs": {
+            "defines": {
+                "ABSPATH": {
+                    "value": "C:\\Users\\simon\\Local Sites\\la-vie-des-plantes\\app\\public\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "value": "utf8",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "value": "bmc6;sN\/Ulp oM7XD+xC!t@iUPzc+jGc0^g=[(BqWX^f;@(%ecDA@xGOja{%z}Wz",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "value": "n53Oh3S$Dw@xZ\/o3j!2}p2c;Sxx&09:~@3T^67IFm:( 1S_jK#V=ZCVbWdnHMYZZ",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "value": "@MWq0<(yzDY$Wb~<W hL>Z[E=bV<v?jOwlp}Zq)*&Q.CmWJVP.s,JW6VWj_!lX*~",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "value": ",flBcL0K)Xw`A]~s^b4\/H.NYxgZ%?~qs{Rc<nda$b(W^u;jWT5w:|^WKIhyWW-<%",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "value": "2^~o}+h$Ox]r;M>+)_ drN)QG=js230{(.rK;G!qx@dJAe$.sa0hDV! CUA-_ivK",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "value": "hKF_$if>7U25d!M(jT:D&AoYL:-|ys^R,~cMrf{J&z.gL#b@O)I#E@MidmpI1;}P",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "value": "IrIs~J;W]m+|DB,!eZpr,5v[_Q4{$}KWNyG]j97^xA)PlW^qnz~lomV9Sb*I^ SC",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "value": "|F=jgIP7aaO`_P]>s&=u{$~C>cG-:(ipGZDrd*s gx;en?c>&v~(92~@WLcQez)`",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "value": "C:\\Users\\simon\\Local Sites\\la-vie-des-plantes\\app\\public\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "value": "http:\/\/la-vie-des-plantes.local\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "value": "C:\\Users\\simon\\Local Sites\\la-vie-des-plantes\\app\\public\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "value": "http:\/\/la-vie-des-plantes.local\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "WP_POST_REVISIONS": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "COOKIE_DOMAIN": {
+                    "value": "",
+                    "inWpConfig": false
+                },
+                "MULTISITE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "SCRIPT_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "value": "40M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "value": "256M",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_LANG_DIR": {
+                    "value": "C:\\Users\\simon\\Local Sites\\la-vie-des-plantes\\app\\public\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "FS_CHMOD_DIR": {
+                    "value": 511,
+                    "inWpConfig": false
+                },
+                "FS_CHMOD_FILE": {
+                    "value": 438,
+                    "inWpConfig": false
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "COOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "value": "\/wp-admin",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "value": "\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "value": "C:\\Users\\simon\\Local Sites\\la-vie-des-plantes\\app\\public\/wp-content\/themes\/flower-shop-lite",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "value": "C:\\Users\\simon\\Local Sites\\la-vie-des-plantes\\app\\public\/wp-content\/themes\/flower-shop-lite",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "value": 30,
+                    "inWpConfig": false
+                },
+                "FORCE_SSL_ADMIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "value": "C:\\Users\\simon\\Local Sites\\la-vie-des-plantes\\app\\public\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "value": "http:\/\/la-vie-des-plantes.local\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "siteUrl": "http:\/\/la-vie-des-plantes.local",
+                "homeUrl": "http:\/\/la-vie-des-plantes.local",
+                "loginUrl": "http:\/\/la-vie-des-plantes.local\/wp-login.php",
+                "contentUrl": "http:\/\/la-vie-des-plantes.local\/wp-content",
+                "uploadBaseUrl": "http:\/\/la-vie-des-plantes.local\/wp-content\/uploads",
+                "pluginsUrl": "http:\/\/la-vie-des-plantes.local\/wp-content\/plugins",
+                "mupluginsUrl": "http:\/\/la-vie-des-plantes.local\/wp-content\/mu-plugins",
+                "themesUrl": "http:\/\/la-vie-des-plantes.local\/wp-content\/themes",
+                "originalPaths": {
+                    "home": "C:\/Users\/simon\/Local Sites\/la-vie-des-plantes\/app\/public",
+                    "abs": "C:\\Users\\simon\\Local Sites\\la-vie-des-plantes\\app\\public",
+                    "wpconfig": "C:\/Users\/simon\/Local Sites\/la-vie-des-plantes\/app\/public",
+                    "wpcontent": "C:\\Users\\simon\\Local Sites\\la-vie-des-plantes\\app\\public\/wp-content",
+                    "uploads": "C:\\Users\\simon\\Local Sites\\la-vie-des-plantes\\app\\public\/wp-content\/uploads",
+                    "plugins": "C:\\Users\\simon\\Local Sites\\la-vie-des-plantes\\app\\public\/wp-content\/plugins",
+                    "muplugins": "C:\\Users\\simon\\Local Sites\\la-vie-des-plantes\\app\\public\/wp-content\/mu-plugins",
+                    "themes": "C:\\Users\\simon\\Local Sites\\la-vie-des-plantes\\app\\public\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "home": "C:\/Users\/simon\/Local Sites\/la-vie-des-plantes\/app\/public",
+                    "abs": "C:\/Users\/simon\/Local Sites\/la-vie-des-plantes\/app\/public",
+                    "wpconfig": "C:\/Users\/simon\/Local Sites\/la-vie-des-plantes\/app\/public",
+                    "wpcontent": "C:\/Users\/simon\/Local Sites\/la-vie-des-plantes\/app\/public\/wp-content",
+                    "uploads": "C:\/Users\/simon\/Local Sites\/la-vie-des-plantes\/app\/public\/wp-content\/uploads",
+                    "plugins": "C:\/Users\/simon\/Local Sites\/la-vie-des-plantes\/app\/public\/wp-content\/plugins",
+                    "muplugins": "C:\/Users\/simon\/Local Sites\/la-vie-des-plantes\/app\/public\/wp-content\/mu-plugins",
+                    "themes": "C:\/Users\/simon\/Local Sites\/la-vie-des-plantes\/app\/public\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "better-search-replace\/better-search-replace.php": {
+                "slug": "better-search-replace\/better-search-replace.php",
+                "name": "Better Search Replace",
+                "version": "1.4.7",
+                "pluginURI": "https:\/\/bettersearchreplace.com",
+                "author": "WP Engine",
+                "authorURI": "https:\/\/bettersearchreplace.com",
+                "description": "A small plugin for running a search\/replace on your WordPress database.",
+                "title": "Better Search Replace",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicator\/duplicator.php": {
+                "slug": "duplicator\/duplicator.php",
+                "name": "Duplicator",
+                "version": "1.5.10.2",
+                "pluginURI": "https:\/\/duplicator.com\/",
+                "author": "Duplicator",
+                "authorURI": "https:\/\/duplicator.com\/",
+                "description": "Migrate and backup a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "elementor\/elementor.php": {
+                "slug": "elementor\/elementor.php",
+                "name": "Elementor",
+                "version": "3.23.4",
+                "pluginURI": "https:\/\/elementor.com\/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash",
+                "author": "Elementor.com",
+                "authorURI": "https:\/\/elementor.com\/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash",
+                "description": "The Elementor Website Builder has it all: drag and drop page builder, pixel perfect design, mobile responsive editing, and more. Get started now!",
+                "title": "Elementor",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "google-listings-and-ads\/google-listings-and-ads.php": {
+                "slug": "google-listings-and-ads\/google-listings-and-ads.php",
+                "name": "Google for WooCommerce",
+                "version": "2.8.2",
+                "pluginURI": "",
+                "author": "WooCommerce",
+                "authorURI": "https:\/\/woocommerce.com\/",
+                "description": "Native integration with Google that allows merchants to easily display their products across Google\u2019s network.",
+                "title": "Google for WooCommerce",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "woolentor-addons\/woolentor_addons_elementor.php": {
+                "slug": "woolentor-addons\/woolentor_addons_elementor.php",
+                "name": "ShopLentor \u2013 WooCommerce Builder for Elementor & Gutenberg",
+                "version": "2.9.5",
+                "pluginURI": "https:\/\/woolentor.com\/",
+                "author": "HasThemes",
+                "authorURI": "https:\/\/hasthemes.com\/plugins\/woolentor-pro\/",
+                "description": "An all-in-one WooCommerce solution to create a beautiful WooCommerce store.",
+                "title": "ShopLentor \u2013 WooCommerce Builder for Elementor & Gutenberg",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "woocommerce\/woocommerce.php": {
+                "slug": "woocommerce\/woocommerce.php",
+                "name": "WooCommerce",
+                "version": "9.1.4",
+                "pluginURI": "https:\/\/woocommerce.com\/",
+                "author": "Automattic",
+                "authorURI": "https:\/\/woocommerce.com",
+                "description": "An ecommerce toolkit that helps you sell anything. Beautifully.",
+                "title": "WooCommerce",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "woocommerce-services\/woocommerce-services.php": {
+                "slug": "woocommerce-services\/woocommerce-services.php",
+                "name": "WooCommerce Shipping & Tax",
+                "version": "2.7.0",
+                "pluginURI": "https:\/\/woocommerce.com\/",
+                "author": "WooCommerce",
+                "authorURI": "https:\/\/woocommerce.com\/",
+                "description": "Hosted services for WooCommerce: automated tax calculation, shipping label printing, and smoother payment setup.",
+                "title": "WooCommerce Shipping & Tax",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "woocommerce-payments\/woocommerce-payments.php": {
+                "slug": "woocommerce-payments\/woocommerce-payments.php",
+                "name": "WooPayments",
+                "version": "8.0.2",
+                "pluginURI": "https:\/\/woocommerce.com\/payments\/",
+                "author": "WooCommerce",
+                "authorURI": "https:\/\/woocommerce.com\/",
+                "description": "Accept payments via credit card. Manage transactions within WordPress.",
+                "title": "WooPayments",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wpforms-lite\/wpforms.php": {
+                "slug": "wpforms-lite\/wpforms.php",
+                "name": "WPForms Lite",
+                "version": "1.9.0.2",
+                "pluginURI": "https:\/\/wpforms.com",
+                "author": "WPForms",
+                "authorURI": "https:\/\/wpforms.com",
+                "description": "Beginner friendly WordPress contact form plugin. Use our Drag & Drop form builder to create your WordPress forms.",
+                "title": "WPForms Lite",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wordpress-seo\/wp-seo.php": {
+                "slug": "wordpress-seo\/wp-seo.php",
+                "name": "Yoast SEO",
+                "version": "23.2",
+                "pluginURI": "https:\/\/yoa.st\/1uj",
+                "author": "Team Yoast",
+                "authorURI": "https:\/\/yoa.st\/1uk",
+                "description": "The first true all-in-one SEO solution for WordPress, including on-page content analysis, XML sitemaps and much more.",
+                "title": "Yoast SEO",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            }
+        },
+        "themes": {
+            "flower-shop-lite": {
+                "slug": "flower-shop-lite",
+                "themeName": "Flower Shop Lite",
+                "version": "1.9",
+                "themeURI": "https:\/\/www.sktthemes.org\/shop\/free-shop-wordpress-theme\/",
+                "parentTheme": false,
+                "template": "flower-shop-lite",
+                "stylesheet": "flower-shop-lite",
+                "description": "SKT Flower Shop is a store, online shop, digital and eCommerce WordPress theme developed using WooCommerce and is translation ready and multilingual friendly. It is multipurpose template and comes with a ready to import Elementor template plugin as add on which allows to import 63+ design templates for making use in home and other inner pages. Use it to create any type of business, personal, blog and eCommerce website. It is fast, flexible, simple and fully customizable. WooCommerce ready designs. Demo : https:\/\/sktperfectdemo.com\/demos\/flowershop\/",
+                "author": "SKT Themes",
+                "authorURI": "https:\/\/www.sktthemes.org",
+                "tags": [
+                    "two-columns",
+                    "right-sidebar",
+                    "custom-background",
+                    "custom-colors",
+                    "custom-menu",
+                    "sticky-post",
+                    "theme-options",
+                    "threaded-comments",
+                    "e-commerce",
+                    "blog"
+                ],
+                "isAllowed": true,
+                "isActive": true,
+                "defaultTheme": false
+            },
+            "twentytwentyfour": {
+                "slug": "twentytwentyfour",
+                "themeName": "Twenty Twenty-Four",
+                "version": "1.2",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentyfour\/",
+                "parentTheme": false,
+                "template": "twentytwentyfour",
+                "stylesheet": "twentytwentyfour",
+                "description": "Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Twenty Twenty-Four comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks",
+                    "block-styles",
+                    "style-variations",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": true
+            },
+            "twentytwentythree": {
+                "slug": "twentytwentythree",
+                "themeName": "Twenty Twenty-Three",
+                "version": "1.5",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentythree",
+                "parentTheme": false,
+                "template": "twentytwentythree",
+                "stylesheet": "twentytwentythree",
+                "description": "Twenty Twenty-Three is designed to take advantage of the new design tools introduced in WordPress 6.1. With a clean, blank base as a starting point, this default theme includes ten diverse style variations created by members of the WordPress community. Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks",
+                    "block-styles",
+                    "style-variations",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            },
+            "twentytwentytwo": {
+                "slug": "twentytwentytwo",
+                "themeName": "Twenty Twenty-Two",
+                "version": "1.8",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentytwo\/",
+                "parentTheme": false,
+                "template": "twentytwentytwo",
+                "stylesheet": "twentytwentytwo",
+                "description": "Built on a solidly designed foundation, Twenty Twenty-Two embraces the idea that everyone deserves a truly unique website. The theme\u2019s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layout elements sit gently on the page. The true richness of Twenty Twenty-Two lies in its opportunity for customization. The theme is built to take advantage of the Site Editor features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision. It also includes dozens of block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks. Whether you\u2019re building a single-page website, a blog, a business website, or a portfolio, Twenty Twenty-Two will help you create a site that is uniquely yours.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org\/",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "style-variations",
+                    "wide-blocks",
+                    "block-styles",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            }
+        }
+    },
+    "defaultStorageId": -1,
+    "components": [
+        "package_component_db",
+        "package_component_core",
+        "package_component_plugins",
+        "package_component_themes",
+        "package_component_uploads",
+        "package_component_other"
+    ],
+    "opts_delete": "[\"duplicator_ui_view_state\",\"duplicator_package_active\",\"duplicator_settings\",\"duplicator_is_pro_enable_notice_dismissed\"]",
+    "brand": {
+        "name": "Duplicator",
+        "isDefault": true,
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator",
+        "enabled": false,
+        "style": []
+    },
+    "overwriteInstallerParams": {
+        "blogname": {
+            "value": "La vie des plantes"
+        }
+    },
+    "installer_base_name": "installer.php.bak",
+    "installer_backup_name": "backup_laviedesplantes_fd20ad847d4ca7998559_20240816162710_installer-backup.php",
+    "package_name": "backup_laviedesplantes_fd20ad847d4ca7998559_20240816162710_archive.zip",
+    "package_hash": "fd20ad8-16162710",
+    "package_notes": ""
+}
