@@ -19,13 +19,13 @@
 
 
 # Uploads
-/wp-content/uploads/
+
 
 # Log files
-*.log
+
 
 # htaccess
-/.htaccess
+
 
 # All plugins
 #
