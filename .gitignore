@@ -5,21 +5,12 @@
 #
 # Note: if you want to stage/commit WP core files
 # you can delete this whole section/until Configuration.
-/wp-admin/
 /dup-installer/
-/wp-content/index.php
-/wp-content/languages
-/wp-content/plugins/
-/wp-content/themes/
-/wp-includes/
-/index.php
-/license.txt
-/readme.html
-/wp-*.php
-/xmlrpc.php
+
+
 
 # Configuration
-wp-config.php
+
 
 # Example themes
 /wp-content/themes/twenty*/
